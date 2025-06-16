@@ -132,7 +132,7 @@ body{
 .working{
     width: 100%;
     position: absolute;
-    top:20%;
+    bottom:10%;
     opacity: 0;
     font-size: 100%;
     padding: 2%;
@@ -147,7 +147,7 @@ body{
 /* about section */
 .About-me{
  position: absolute;
- top: 20%;
+ bottom:10%;
  width: 100%;
  font-size: 100%;
  opacity: 0;
@@ -160,7 +160,7 @@ body{
 /* contact section */
 .contact{
     position: absolute;  
-    top: 20%;
+    bottom:10%;
     left: 1%;
     font-size: 100%;
     opacity: 0;
