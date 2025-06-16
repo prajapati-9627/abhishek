@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: abhishek 10s linear infinite alternate ;
+    -webkit-animation: abhishek 10s linear infinite alternate ;
+}
+
+@keyframes abhishek{
+    0%{  background-image: url("https://i.postimg.cc/WbWkTsSM/mausi-ki-saadi-1.jpg");
+    }
+    50%{
+        background-image: url("https://i.postimg.cc/267xxPY2/moradabad-flower.jpg");
+    }
+    100%{
+        background-image: url("https://i.postimg.cc/ydXRHs3z/bhai-balesara.jpg");
+    }
+}
+
+#back,#back2{
+    width: 10%;
+    font-size: 3vh;
+
+}
+#logo{
+    height: 0%;
+    width: 7%;
+    padding-left: 5%;
+}
+
+.button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.welcome{
+    height: 10%;
+    width: 70%;
+    padding: 2%;
+    background-color: rgb(165, 40, 128);
+    color: rgb(143, 184, 23);
+    font-size: 100%;
+    font-family: cursive;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    left: 12.5%;
+    bottom: 1%;
+    transition-duration: 0s;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    /* opacity: .5; */
+}
+#visit{
+    font-size: 100%;
+    cursor: pointer;
+    color: blue;
+}
+#creator{
+    position: absolute;
+    right: 1%;
+    bottom: 25%;
+    font-family: cursive;
+    font-size: 100%;
+}
+#name{
+    position: absolute;
+    right: 1%;
+    bottom: 20%;
+    font-family: cursive;
+    font-size: 100%;
+    padding-top: 2%;
+}
+
+.first-div{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+}
+
+.nav-bar{
+    width: 70%;
+   display: flex;
+   justify-content: space-evenly;
+}
+/* content section */
+.content{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    opacity: 0;
+}
+.content:hover{
+    background-color: rgb(144, 115, 172);
+}
+.content img{
+    height: 40%;
+    width: 40%;
+}
+.first-div2{
+    opacity: 1;
+    background-color: antiquewhite;
+}
+.content2{
+    opacity: 1;
+    background-color: antiquewhite;
+}
+.welcome2{
+    opacity: 0;
+    /* background-color: antiquewhite; */
+}
+.back{
+    opacity: 0;
+}
+.show-back{
+    opacity: 1;
+}
+/* work sectiion */
+
+.working{
+    width: 50%;
+    position: absolute;
+    top:10%;
+    opacity: 0;
+    font-size: 100%;
+    padding: 2%;
+}
+.working:active{
+    background-color: aquamarine;
+}
+.show-working{
+    opacity: 1;
+    background-color: antiquewhite;
+}
+/* about section */
+.About-me{
+ position: absolute;
+ top: 10%;
+ width: 50%;
+ font-size: 100%;
+ opacity: 0;
+ padding: 2%;
+}
+.about-me2{
+    opacity: 1;
+    background-color: antiquewhite;
+}
+/* contact section */
+.contact{
+    position: absolute;  
+    top: 10%;
+    left: 1%;
+    font-size: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+}
+.contact2{
+    opacity: 1;
+    background-color: antiquewhite;
+}
