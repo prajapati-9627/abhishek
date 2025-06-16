@@ -101,7 +101,7 @@ body{
     justify-content: space-around;
     padding: 2%;
     opacity: 0;
-    position:absolute;
+    position: absolute;
     bottom:10%;
 }
 .content:hover{
